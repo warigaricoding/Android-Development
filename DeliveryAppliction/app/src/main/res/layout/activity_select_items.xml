@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectItems">
+
+    <TextView
+        android:id="@+id/textPickDate"
+        android:layout_width="123dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="436dp"
+        android:text="Pick Available Date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_DateView"
+        android:layout_width="76dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="484dp"
+        android:text="Click"
+        android:focusableInTouchMode="true"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus5"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="9dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/button_reset5"
+        app:layout_constraintTop_toBottomOf="@+id/button_plus4" />
+
+    <Button
+        android:id="@+id/button_min5"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="289dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus4"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/button_reset4"
+        app:layout_constraintTop_toBottomOf="@+id/button_plus3" />
+
+    <Button
+        android:id="@+id/button_min4"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="244dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus3"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="7dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/button_reset3"
+        app:layout_constraintTop_toBottomOf="@+id/button_plus2" />
+
+    <Button
+        android:id="@+id/button_min3"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="202dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus2"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/button_reset2"
+        app:layout_constraintTop_toBottomOf="@+id/button_plus1" />
+
+    <Button
+        android:id="@+id/button_min2"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="158dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus1"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="33dp"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/button_reset1"
+        app:layout_constraintTop_toBottomOf="@+id/textSelectItems" />
+
+    <Button
+        android:id="@+id/button_min1"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="113dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_reset6"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="338dp"
+        android:text="reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_min6"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="338dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textcount6"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="351dp"
+        android:layout_marginTop="339dp"
+        android:text="0"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_plus6"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="336dp"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_reset5"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="9dp"
+        android:text="reset"
+        app:layout_constraintStart_toEndOf="@+id/button_min5"
+        app:layout_constraintTop_toBottomOf="@+id/button_reset4" />
+
+    <Button
+        android:id="@+id/button_reset4"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="6dp"
+        android:text="reset"
+        app:layout_constraintStart_toEndOf="@+id/button_min4"
+        app:layout_constraintTop_toBottomOf="@+id/button_reset3" />
+
+    <Button
+        android:id="@+id/button_reset3"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="reset"
+        app:layout_constraintStart_toEndOf="@+id/button_min3"
+        app:layout_constraintTop_toBottomOf="@+id/button_reset2" />
+
+    <TextView
+        android:id="@+id/textCoats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="299dp"
+        android:text="Comforters"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="344dp"
+        android:text="Shoes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSelectItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:text="Fill Out Your Delivery"
+        android:textSize="33sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_SubmitDelivery"
+        android:layout_width="151dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="420dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_logout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="568dp"
+        android:backgroundTint="#BDB7B7"
+        android:text="Logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_backToMain2"
+        android:layout_width="149dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="484dp"
+        android:text="Back To Menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textShirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="120dp"
+        android:text="Shirts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="254dp"
+        android:text="Suits"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="27dp"
+        android:text="Pants"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textShirt" />
+
+    <TextView
+        android:id="@+id/textBlouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="211dp"
+        android:text="Blouse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_reset1"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="33dp"
+        android:text="Reset"
+        app:layout_constraintStart_toEndOf="@+id/button_min1"
+        app:layout_constraintTop_toBottomOf="@+id/textSelectItems" />
+
+    <Button
+        android:id="@+id/button_reset2"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="reset"
+        app:layout_constraintStart_toEndOf="@+id/button_min2"
+        app:layout_constraintTop_toBottomOf="@+id/button_reset1" />
+
+    <TextView
+        android:id="@+id/textCount1"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="33dp"
+        android:text="0"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/button_plus1"
+        app:layout_constraintTop_toBottomOf="@+id/textSelectItems" />
+
+    <TextView
+        android:id="@+id/textCount2"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/button_plus2"
+        app:layout_constraintTop_toBottomOf="@+id/textCount1" />
+
+    <TextView
+        android:id="@+id/textCount3"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="7dp"
+        android:text="0"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/button_plus3"
+        app:layout_constraintTop_toBottomOf="@+id/textCount2" />
+
+    <TextView
+        android:id="@+id/textCount4"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="7dp"
+        android:text="0"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/button_plus4"
+        app:layout_constraintTop_toBottomOf="@+id/textCount3" />
+
+    <TextView
+        android:id="@+id/textCount5"
+        android:layout_width="39dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="9dp"
+        android:text="0"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/button_plus5"
+        app:layout_constraintTop_toBottomOf="@+id/textCount4" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text=" "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_DateView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

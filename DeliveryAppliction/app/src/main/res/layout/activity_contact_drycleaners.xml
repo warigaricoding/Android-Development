@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactDrycleaners">
+
+    <TextView
+        android:id="@+id/textPromptMessage"
+        android:layout_width="246dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="132dp"
+        android:text="Please write your message and submit, and we will contact you shortly"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textContactDrycleaners"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Contact Your Drycleaners"
+        android:textSize="33sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_logout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="#BDB7B7"
+        android:text="Logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="270dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="216dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Please Write Your Message"
+        android:inputType="textMultiLine"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_SubmitMessage"
+        android:layout_width="180dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="424dp"
+        android:text="Submit"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_back_to_main"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="488dp"
+        android:text="Back To Main"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
